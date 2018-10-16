@@ -9,12 +9,15 @@
 /* line 3, src/sass/ysquiz.scss */
 .ysquiz {
   /* custom css rules */
-  max-width: 300px !important;
+  max-width: 50%;
 }
 
 /* line 6, src/sass/ysquiz.scss */
 .ysquiz .ysquiz-header {
   /* custom css rules */
+    font-size: 2vw;
+    padding-bottom: 40px;
+    color: #D77D79;
 }
 
 /* line 8, src/sass/ysquiz.scss */
@@ -36,6 +39,7 @@
 /* line 18, src/sass/ysquiz.scss */
 .ysquiz .ysquiz-content .ysquiz-question .ysquiz-question-title {
   /* custom css rules */
+  font-size: 1.5vw;
 }
 
 /* line 21, src/sass/ysquiz.scss */
@@ -47,6 +51,8 @@
 /* line 25, src/sass/ysquiz.scss */
 .ysquiz .ysquiz-content .ysquiz-question button {
   /* custom css rules */
+  margin-top: 40px;
+
 }
 
 /* line 28, src/sass/ysquiz.scss */
@@ -82,4 +88,29 @@
 /* line 49, src/sass/ysquiz.scss */
 .ysquiz .ysquiz-footer .ysquiz-message {
   /* custom css rules */
+}
+
+
+
+@media only screen and (max-width:768px) {
+  .ysquiz .ysquiz-header {
+    font-size: 5vw;
+}
+  .ysquiz .ysquiz-content .ysquiz-question .ysquiz-question-title {
+    /* custom css rules */
+    font-size: 1.5vw;
+  }
+  .ysquiz {
+    max-width: 70%;
+}
+.ysquiz .ysquiz-content .ysquiz-question .ysquiz-question-title {
+    font-size: 5.5vw;
+    margin-bottom: 20px;
+}
+li {
+    font-size: 7.25vw;
+}
+button {
+  font-size: 6.5vw;
+}
 }

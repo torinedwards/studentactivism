@@ -29,7 +29,7 @@
     wrapper: '.ysquiz',
 
     // Quiz title
-    title: 'ysQuiz',
+    title: 'Test Your Knowledge',
 
     // Quiz enumerator
     enumerator: true
@@ -122,7 +122,7 @@
   // Plugin Constructor
   //
 
-  /** 
+  /**
    * Plugin Object
    * @param {Array} questions Quiz questions
    * @param {Object} opts User settings

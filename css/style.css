@@ -535,6 +535,17 @@ body {
   justify-content: center;
   position: absolute;
   z-index: 10000;
+  width: 100%;
+  top: 33%;
+}
+
+button {
+  padding: 5px;
+  width: 100%;
+  margin-top: 20px;
+  background-color: #D78D79;
+  border: none;
+  color: white;
 }
 
 .sglogo {
@@ -558,6 +569,10 @@ p {
 .typingtext {
   font-size: 8vh;
   color: #fff;
+}
+
+li {
+  line-height: 35px;
 }
 
 .stugov {
@@ -604,7 +619,7 @@ p {
   .main-text {
     padding-top: 30px;
     color: white;
-    font-size: 2.5vw;
+    font-size: 3.5vw;
   }
 
   .contain {
@@ -619,6 +634,7 @@ p {
     justify-content: center;
     position: absolute;
     width: 90%;
+    top: -12%;
   }
 
   .city {
