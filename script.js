@@ -304,7 +304,8 @@ $(document).ready(function(){
 		<div class="center">
 			<h1 class="typing-text typingtext" ></h1>
 		</div>
-		<div class='sglogo'>
+		<div class='
+			sglogo'>
 			<img class='stugov' src='images/sglogo.png'>
 		</div>
 
@@ -318,6 +319,8 @@ $(document).ready(function(){
 
 	`;
 	$('.slide--9').append(quiz);
+	var myQuiz = new ysQuiz(myQuestions);
+
 
 })
 
@@ -346,5 +349,3 @@ var myQuestions = [{
     answers: ["7", "8", "10", "6"],
     correct: "9"
   }];
-
-	var myQuiz = new ysQuiz(myQuestions);
