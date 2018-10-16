@@ -29,8 +29,6 @@ body {
   align-items: center;
   justify-content: center;
   position: absolute;
-  top: 45%;
-  right: 30%;
   z-index: 10000;
 }
 
@@ -81,18 +79,21 @@ p {
 @media only screen and (max-width: 768px) {
   .outerbox {
     position: absolute;
-    top: 100px;
-    right: 94px;
+    width: 90%;
+    height: 90%;
     z-index: 10000;
-  }
-
-  body {
-    background-color: red !important;
+    top: 5%;
+    right: 0px;
   }
 
   .logo-size {
-    width: 100%;
-    height: auto;
+    width: 86%;
+  }
+
+  .sglogo {
+    bottom: 13%;
+    width: 90%;
+    justify-content: center;
   }
 
   .main-text {
@@ -102,7 +103,7 @@ p {
   }
 
   .contain {
-    width: 560px;
+    width: 90%;
     justify-content: center;
     align-items: center;
   }
@@ -112,21 +113,11 @@ p {
     align-items: center;
     justify-content: center;
     position: absolute;
-    top: 45%;
-    right: 30%;
-    z-index: 10000;
-  }
-
-  .sglogo {
-    display: flex;
-    position: absolute;
-    right: 3%;
-    bottom: 3%;
+    width: 90%;
   }
 
   .city {
-    color: #D68C78;
-    font-size: 1.95vw;
+    font-size: 3.95vw;
     padding-top: 30px;
   }
 
@@ -136,13 +127,13 @@ p {
   }
 
   .typingtext {
-    font-size: 8vh;
+    font-size: 6vh;
     color: #fff;
   }
 
   .stugov {
-    width: 13.1vw;
-    height: 13.1vw;
+    width: 28.1vh;
+    height: 28.1vh;
   }
 
   .ysquiz {
