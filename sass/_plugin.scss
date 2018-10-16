@@ -1,0 +1,23 @@
+$bgClr: rgba(#0b0f27, .83);
+$txtClr: #fff;
+$animSpd: 750 * 1ms; // Change also in JS
+
+$numOfSlides: 9; // Add new city in the array in JS and a new image below
+
+$bgPics: (
+url('http://www.torinedwards.com/project3/wp-content/uploads/2018/10/black.png') center center no-repeat,
+url('http://www.torinedwards.com/project3/wp-content/uploads/2018/10/speakerbanslide.png') center center no-repeat,
+url('http://www.torinedwards.com/project3/wp-content/uploads/2018/10/civilrightsslide-1.png') center center no-repeat,
+url('http://www.torinedwards.com/project3/wp-content/uploads/2018/10/lunchstrikeslide.png') center center no-repeat,
+url('http://www.torinedwards.com/project3/wp-content/uploads/2018/10/antiwarslide.png') center center no-repeat,
+url('http://www.torinedwards.com/project3/wp-content/uploads/2018/10/antiapart.png') center center no-repeat,
+url('http://www.torinedwards.com/project3/wp-content/uploads/2018/10/saundersslide.png') center center no-repeat,
+url('http://www.torinedwards.com/project3/wp-content/uploads/2018/10/ssam.gif') center center no-repeat,
+url('http://www.torinedwards.com/project3/wp-content/uploads/2018/10/black-1.png') center center no-repeat
+);
+
+@mixin mediaMaxW($width) {
+  @media screen and (max-width: $width) {
+    @content;
+  }
+}
