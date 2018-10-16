@@ -129,7 +129,6 @@ li {
     justify-content: center;
     position: absolute;
     width: 90%;
-    top: -12%;
   }
 
   .city {
@@ -140,6 +139,11 @@ li {
   p {
     font-size: 1vw;
     color: white;
+  }
+
+  li {
+    line-height: 35px;
+    font-size: 6.25vw;
   }
 
   .typingtext {

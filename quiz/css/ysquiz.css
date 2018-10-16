@@ -44,14 +44,19 @@
 
 /* line 21, src/sass/ysquiz.scss */
 .ysquiz .ysquiz-content .ysquiz-question ul {
-  padding: 0;
+  padding-top: 20px;
   list-style: none;
+}
+
+.ysquiz .ysquiz-content .ysquiz-question li {
+font-size: 1.25vw;
 }
 
 /* line 25, src/sass/ysquiz.scss */
 .ysquiz .ysquiz-content .ysquiz-question button {
   /* custom css rules */
   margin-top: 40px;
+  font-size: 1.5vw;
 
 }
 
